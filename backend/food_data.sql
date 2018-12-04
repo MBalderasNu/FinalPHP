@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `recipe` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=11;
 
 
-INSERT INTO `users` (`id`, `name`,`password`) VALUES
+INSERT INTO `users` (`id`, `username`,`password`) VALUES
 (1, 'admin', 'test');
 
 
