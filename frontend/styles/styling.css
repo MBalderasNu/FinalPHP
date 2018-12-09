@@ -1,0 +1,89 @@
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+div li {
+    float: left;
+}
+
+div li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div li a:hover {
+    background-color: #111;
+}
+
+
+.test {
+	font-size: 0;
+	list-style: none;
+	width: 100%;
+  padding-left: 0px;
+}
+
+.test li {
+	background: #A9A9A9;
+	display: inline-block;
+	width: 33.3%;
+}
+
+.test li:hover {
+  background: #cdc8c8;
+}
+
+.test li img {
+	opacity: 0.5;
+	width: 100%;
+}
+
+.test li.feature {
+	background: #708090;
+	float: left;
+	width: 66.6%;
+}
+
+.test li.feature:hover {
+	background: #95a4b2;
+}
+
+.test li.two {
+	background: #2F4F4F;
+}
+.test li.two:hover {
+  background: #668989;
+}
+
+.test li.three {
+	background: #2F4F4F;
+}
+.test li.three:hover {
+  background: #668989;
+}
+
+.test li.four {
+	background: #2F4F4F;
+}
+.test li.four:hover {
+  background: #668989;
+}
+
+
+@media (max-width: 640px) {
+
+    .test {
+        width: 100%;
+    }
+	ul li.feature {
+		width: 100%;
+	}
+}
