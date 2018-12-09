@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' href='./styles/style.css'>
     <h1>Recipe Cooking</h1>
-    <?php include 'navbar.php';?>
-  
-    
+    <?php include 'navbar.php';?>  
 </head>
 <body>
+<h2>Our Top 3 Favorites</h2>
 <div class="bx--grid">
   <div class="bx--row">
     <div class="bx--col-sm-4 bx--col-xs-12">
