@@ -17,22 +17,22 @@
 <body>
 <ul class="test">
   <li class="feature">
-    <a href="nachos.php">
+    <a href="burrito.php">
       <img src="./images/burrito.jpg"/>
     </a>
   </li>
   <li class="two">
-    <a href="#">  
+    <a href="carneasada.php">  
       <img src="./images/carneasadafries.jpg" />
     </a>
   </li>
   <li class="three">
-    <a href="#">    
+    <a href="cheeseburger.php">    
       <img src="./images/cheeseburger.jpg" />
     </a>
   </li>
   <li class="four">
-    <a href="#">    
+    <a href="sandwich.php">    
       <img src="./images/chickensand.jpg" />
     </a>
   </li>
