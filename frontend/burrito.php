@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="something">
-            <img src="./images/burrito.jpg" style="width:600px;height:400px;" />
+            <img src="./images/burrito.jpg" style="width:600px;height:600px;" />
             <h2>Category</h2>
             <div id ='category0'></div>
             <h2>Ingredients</h2>
