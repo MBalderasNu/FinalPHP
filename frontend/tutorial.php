@@ -6,13 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' href='./styles/styling.css'>
     <h1>Tutorials</h1>
-    <div class="text-nav">
-            <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="tutorial.php">Tutorials</a></li>
-                    <li><a href="dontknow.php">Cant' Decide?</a></li>
-                  </ul>
-    </div>
+    <?php include 'navbar.php';?>  
 </head>
 <body>
 <ul class="test">
