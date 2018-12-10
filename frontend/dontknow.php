@@ -14,26 +14,43 @@
 <div id="outer-container">
   <div id="spacer"></div>
   <div id="box-container">
-    <div id="demobox">
+    <div id="demobox1">
 
     </div>
-    <div id="demobox">
+    <div id ="demobox2">
 
     </div>
-    <div id="demobox">
+    <div id="demobox3">
 
     </div>
-    <div id="demobox">
+    <div id="demobox4">
 
     </div>
-    <div id="demobox">
+    <div id="demobox5">
 
     </div>
-    <div id="demobox">
+    <div id="demobox6">
 
     </div>
-    <input type="button" class="button5" value="Input Button">
+    <
+    <input type="button" class="button5" value="Give me a Recipe!" onclick="changeColor()">
 </div>
+<script>
+    function changeColor(){
+        var links = ["burrito.php","carneasada.php","cheeseburger.php","nachos.php","quesadilla.php","sandwich.php","tacos.php"];
+        var min=0; 
+    var max=links.length;  
+    var random = Math.random() * (+max - +min) + +min; 
+   
+    var string = "demobox";
+    string += Math.round(random);
+        location = links[Math.round(random)];
+        document.getElementById(string).style.backgroundColor = "lightblue";
+    }
+
+
+
+</script>
 </div>
 
 

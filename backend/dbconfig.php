@@ -1,7 +1,7 @@
 <?php
 
-$host = "localhost";
-$username = "matt";//can use your own username
+$host = "localhost:8080";
+$username = "mbench2";//can use your own username
 $password = "pass";//can use your own password
 $db_name = "food_data"; //database name
 //connect to mysql server
